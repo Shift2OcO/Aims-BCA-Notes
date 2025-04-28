@@ -1,9 +1,5 @@
-- [Home](README.md)
-- **C Programming**
-  - [C Programming](C Programming.md)
-- **Microprocessor and Architecture**
-  - [Fundamentals of Microprocessor](Fundamental of Microprocessor.md)
-  - [Micro-Processor and Computer Architecture](Micro-Processor and Computer Architecture.md)
-- **Mathematics**
-  - [Math's-II](Math's-II.md)
-  - [Limit and Continuity](Limit and Continuity.md)
+- [C Programming](C%20Programming.md)
+- [Fundamental of Microprocessor](Fundamental%20of%20Microprocessor.md)
+- [Math's-II](Math's-II.md)
+- [Limit and Continuity](Limit%20and%20Continuity.md)
+- [Micro-Processor and Computer Architecture](Micro-Processor%20and%20Computer%20Architecture.md)

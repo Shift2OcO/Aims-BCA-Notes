@@ -1,20 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aims BCA Notes</title>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+    }
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+    }
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      loadSidebar: true,
-      subMaxLevel: 2,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      }
-    }
-  </script>
+  <div class="sidebar">
+    <h2 style="color:white; text-align:center;">BCA Notes</h2>
+    <ul>
+      <li><a href="C%20Programming.md">C Programming</a></li>
+      <li><a href="Fundamental%20of%20Microprocessor.md">Fundamental of Microprocessor</a></li>
+      <li><a href="Math's-II.md">Math's-II</a></li>
+      <li><a href="Limit%20and%20Continuity.md">Limit and Continuity</a></li>
+      <li><a href="Micro-Processor%20and%20Computer%20Architecture.md">Micro-Processor and Computer Architecture</a></li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h1>Welcome to Aims BCA Notes</h1>
+    <p>Use the sidebar to navigate to different notes.</p>
+  </div>
 </body>
 </html>
